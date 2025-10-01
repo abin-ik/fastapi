@@ -8,7 +8,7 @@ items = []
 
 async def add_items(request : Request):
 
-    data = await request.json()  # read the request body as json
+    data = await request.json()  # read the request body as Json
 
     item = data.get("item")
 
